@@ -1,0 +1,50 @@
+// .tent-img {
+//   max-width: 100%;
+//   min-width: 100%;
+//   height: 80%;
+// }
+
+// @media (max-width: 768px) {
+//   .container {
+//     background-color: rgb(196, 203, 255);
+
+//     .tent-img {
+//       max-width: 100%;
+//       min-width: 100%;
+
+//       height: auto;
+//       background-color: aqua;
+//     }
+//   }
+// }
+
+.container {
+  header {
+    /* Styles for header */
+  }
+
+  section {
+    /* Styles for section */
+  }
+
+  footer {
+    /* Styles for footer */
+  }
+
+  .tent-img {
+    max-width: 100%;
+    min-width: 100%;
+    height: 80%;
+  }
+
+  @media (max-width: 768px) {
+    background-color: rgb(196, 203, 255);
+
+    .tent-img {
+      max-width: 100%;
+      min-width: 100%;
+      height: auto;
+      background-color: aqua;
+    }
+  }
+}
